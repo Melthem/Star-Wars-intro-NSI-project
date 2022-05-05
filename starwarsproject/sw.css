@@ -3,7 +3,7 @@ body {
   height: 100%;
   background: #000;
   overflow: hidden;
-  background-image: url('https://bibliogeek.fr/aperoFriendsByBobby/img/space.webp');
+  background-image: url('fond_espace.jpg');
 }
 
 .fade {
@@ -11,7 +11,7 @@ body {
   width: 100%;
   min-height: 60vh;
   top: -50px;
-  background-image: linear-gradient(0deg, transparent, black 75%);
+  background-image: linear-gradient(0deg, transparent, black 80%);
   z-index: 1;
 }
 
