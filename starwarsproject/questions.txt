@@ -1,12 +1,16 @@
 Schéma questions
 
-I.
-    Importance
+I. Mise en place.
+
     Période
-    Planète/Espèce
-    Sexe
-II.
+        Guerre des Clones - Empire Galactique - Nouvelle République
+    Planète
+        Tatooine(+Tusken) - Naboo(+Gungan) - Kashyyyk(+Wookiee/Trandoshan) - Mon Cala(+Mon Calamari/Quarren) - Iridonia(+Zabrak) - Ryloth(Twi'lek) -                     Coruscant(Tout)
+  II. Personnage.
+
     Allégeance
     Occupation
-    Background & Motivation
+    Background
+    Motivation
 
+III. Situation actuelle.
