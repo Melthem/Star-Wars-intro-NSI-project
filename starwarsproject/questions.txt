@@ -5,12 +5,15 @@ I. Mise en place.
     Période
         Guerre des Clones - Empire Galactique - Nouvelle République
     Planète
-        Tatooine(+Tusken) - Naboo(+Gungan) - Kashyyyk(+Wookiee/Trandoshan) - Mon Cala(+Mon Calamari/Quarren) - Iridonia(+Zabrak) - Ryloth(Twi'lek) -                     Coruscant(Tout)
+        Tatooine(+Tusken) - Naboo(+Gungan) - Kashyyyk(+Wookiee/Trandoshan) - Mon Cala(+Mon Calamari/Quarren) - Iridonia(+Zabrak) - Ryloth(Twi'lek) -                             Coruscant(Tout)
   II. Personnage.
 
     Allégeance
+        Neutre - Cartels - GC(République - Séparatistes) - EG(Rébellion - Empire) - NR(Résistance - Premier Ordre)
     Occupation
+        Chasseur de Primes - Contrebandier - Pilote Marchand - GC(Jedi - Séparatiste) - Sith - EG(Armée Rebelle - Empire) - NR(Résistance - Premier Ordre)
     Background
+        
     Motivation
 
 III. Situation actuelle.
