@@ -1,14 +1,13 @@
-var select;
-
-function functiontest(select) {
-    select = document.getElementById('period');
-    select = select.options[select.selectedIndex].value;
-
-    window.location.href = 'II.html';
+var period = 'alors ?';
+function allez() {
+    period = document.getElementById('period');
+    period = period.options[period.selectedIndex].value;
+    window.location.href = 'sw.html';
     return false;
-
 }
 
-function test(select) {
-    console.log(select)
+function final () {
+        if (period === 'republic') {
+        document.querySelector("h1").textContent = "REPUBLIIIIIQUE";
+    }
 }
