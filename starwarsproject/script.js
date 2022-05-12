@@ -1,12 +1,14 @@
-function functiontest() {
-    window.location.href = 'sw.html';
+var select;
+
+function functiontest(select) {
+    select = document.getElementById('period');
+    select = select.options[select.selectedIndex].value;
+
+    window.location.href = 'II.html';
     return false;
 
 }
 
-var select = document.getElementById('period');
-var select = select.options[select.selectedIndex].value;
-
-function test(value) {
-    console.log(value)
+function test(select) {
+    console.log(select)
 }
