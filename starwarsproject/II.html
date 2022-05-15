@@ -2,17 +2,68 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>QUIZZ</title>
+        <title>Étape II</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="II-III.css">
     </head>
     <body>
-        <h1>Commencez votre aventure.</h1>
+        <video id="background-video" autoplay loop muted>
+
+            <source src="MilleniumSpace.mp4" type="video/mp4">
+            
+        </video>
+        <h1>Determinons les forces.</h1>
+
+        <!-- Simple questionnaire à choix multiples -->
         <form>
-            <label for=""><h3></h3></label>
-            <select name="" id="">
-                <option value=""></option>
+            <label for="allegeance"><h3>Déterminez l'allégeance de notre héros.</h3></label>
+            <select id="allegeance">
+                <option value="cartel">Cartels du crime</option>
+                <option value="republic">République Galactique</option>
+                <option value="separatists">Séparatistes</option>
+                <option value="rebellion">Rébellion</option>
+                <option value="empire">Empire Galactique</option>
+                <option value="resistance">Résistance</option>
+                <option value="firstorder">Premier Ordre</option>
             </select>
+
+            <!-- Récupération de la réponses sous forme de cookie -->
+            <button id="choice" onclick="validation('allegeance', 'allegeance')">Valider</button>
+
+            <label for="occupation"><h3>Déterminez son occupation.</h3></label>
+            <select id="occupation">
+                <option value="bounty">Chasseur de primes</option>
+                <option value="smuggler">Contrebandier</option>
+                <option value="pilote">Pilote Marchand</option>
+                <option value="jedi">Jedi</option>
+                <option value="sith">Sith</option>
+                <option value="separatist">Officier Séparatiste</option>
+                <option value="rebel">Soldat Rebelle</option>
+                <option value="resist">Soldat Résistant</option>
+                <option value="galactic">Impérial</option>
+                <option value="order">Soldat du Premier Ordre</option>
+            </select>
+
+            <!-- Récupération de la réponses sous forme de cookie -->
+            <button id="choice" onclick="validation('occupation', 'occupation')">Valider</button>
+
+            <label for="goal"><h3>Quel est son but ?</h3></label>
+            <select id="goal">
+                <option value="peace">Établir la paix dans la galaxie</option>
+                <option value="balance">Rétablir l'équilibre dans la Force</option>
+                <option value="rich">Devenir immensément riche</option>
+                <option value="history">Marquer l'histoire</option>
+                <option value="influence">Être influent et avoir du pouvoir partout dans la Galaxie</option>
+                <option value="power">Devenir le guerrier le plus puissant que la Galaxie ait jamais portée.</option>
+                <option value="life">Faire ce qu'il veut et mener sa vie sans regrets</option>
+            </select>
+
+            <!-- Récupération de la réponses sous forme de cookie -->
+            <button id="choice" onclick="validation('goal', 'but')">Valider</button>
         </form>
-        <script type="text/javascript" src="script.js"></script>
-        <button id="try2" onclick="lastReponse()">pitié</button>
+         
+        <!-- Bouton pour changer de page -->
+        <button id="go" onclick="changePage('III.html')">Continuez</button>
+
     </body>
 </html>

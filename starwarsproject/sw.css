@@ -1,3 +1,7 @@
+/* !!! Tout ce code a été honteusement volé sur le site https://bibliogeek.fr/2021/10/javascript-intro-star-wars/ !!! Aucun mérite ne reviens à l'auteur de ces pages !*/
+
+
+
 body {
   width: 100%;
   height: 100%;
@@ -34,7 +38,7 @@ body {
   position: relative;
   top: 99999px;
   transform-origin: 50% 100%;
-  animation: crawl 60s linear;
+  animation: crawl 80s linear;
 }
 
 .crawl > .title {

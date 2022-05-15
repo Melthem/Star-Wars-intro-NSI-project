@@ -2,22 +2,34 @@
 <html>
 
 <head>
-	<script type="text/javascript" src="script.js"></script>
-	<script type="text/javascript" src="sw.js"></script>
 	<link rel="stylesheet" href="sw.css">
 </head>
-<body>
+<body id="body">
 	<div class="fade"></div>
 	<section class="star-wars">
 	  <div class="crawl">
 		<div class="title">
 		  <h1 id="titre">test</h1>
-		  <h3>test</h3>
-		</div>		
-		<p1>test</p1>
-		<p2>test</p2>		  	
+		</div>
+
+		<!-- On donne des id aux <p> afin de changer le contenu en fonction des réponses.-->
+
+		<p1 id="period">test</p1>
+		<p2>En ces temps troublés, nous retrouvons notre héros, un </p2> <p2 id="hero"></p2> <p2> de la planète</p2> <p2 id="planet"></p2>
+		<p></p>
+		<p3>En cette période de conflits, </p3> <p3 id="allegeance"></p3> <p3> et use de ses</p3> <p3 id="occupation"></p3> <p3> à savoir </p3> <p3 id="goal"></p3>
+		<p></p>
+		<p4>En train de </p4> <p4 id="now"></p4> <p4> </p4><p4 id="event"></p4>
 	  </div>
 	</section>
+
+	<!-- Musique de fond-->
+	<audio id="StarWarsTheme" src="StarWarsMainTheme.mp3"></audio>
+	<script>
+		document.getElementById('StarWarsTheme').play()
+	</script>
+
+	<script type="text/javascript" src="sw.js"></script>
 </body>
 
 </html>

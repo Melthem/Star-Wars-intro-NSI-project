@@ -2,19 +2,24 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>QUIZZ</title>
+        <title>Étape I</title>
         <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="I.css">
     </head>
     <body>
-        <h1>Commençons par la mise en place.</h1>
+        <h1>Commencons par la mise en place.</h1>
+
+        <!-- Simple questionnaire à choix multiples -->
         <form>
             <label for="period"><h3>Dans quelle période nous trouvons-nous ?</h3></label>
             <select id="period">
                 <option value="guerre">La Guerre des Clones</option>
-                <option value="empire">L'Empire Galactique</option>
-                <option value="republic">La Nouvelle République</option>
+                <option value="gempire">L'Empire Galactique</option>
+                <option value="nrepublic">La Nouvelle République</option>
             </select>
-            <button id="try" onclick="validation('period', 'période')">Validez ce choix.</button>
+
+            <!-- Récupération de la réponses sous forme de cookie -->
+            <button id="choice" onclick="validation('period', 'periode')">Valider</button>
 
             <label for="planet"><h3>Bien. Choisissez maintenant une planète d'origine pour notre protagoniste.</h3></label>
             <select id="planet">
@@ -25,7 +30,9 @@
                 <option value="mon cala">Mon Cala</option>
                 <option value="iridonia">Iridonia</option>
             </select>
-            <button id="try" onclick="validation('planet', 'planète')">Validez ce choix.</button>
+
+            <!-- Récupération de la réponses sous forme de cookie -->
+            <button id="choice" onclick="validation('planet', 'planete')">Valider</button>
 
             <label for="species"><h3>Et maintenant, définissez son espèce.</h3></label>
             <select id="species">
@@ -39,10 +46,13 @@
                 <option value="gungan">Gungan</option>
                 <option value="tusken">Tusken</option>
             </select>
-            <button id="try" onclick="validation('species', 'espèce')">Validez ce choix.</button>
+            
+            <!-- Récupération de la réponses sous forme de cookie -->
+            <button id="choice" onclick="validation('species', 'espece')">Valider</button>
         </form>
         
-        <button id="try" onclick="goToFinal()">Allez-y</button>
+        <!-- Bouton pour changer de page -->
+        <button id="go" onclick="changePage('II.html')">Avancez</button>
 
     </body>
 </html>

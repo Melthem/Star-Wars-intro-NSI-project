@@ -1,10 +1,9 @@
 function validation(id, subject) {
+    // La fonction prends la réponse choisie et la sauvegarde en tant que cookie, afin de la réutiliser plus tard
     let answer = document.getElementById(id);
     answer = answer.options[answer.selectedIndex].value;
-    // ok we need to save this in cookie
     document.cookie = subject+"="+answer+"; path=/; SameSite=Lax";
     let cname = subject
-    //on recupère la value de "reponse"
     let name = cname + "=";
     let decodedCookie = decodeURIComponent(document.cookie);
     let ca = decodedCookie.split(';');
@@ -20,17 +19,9 @@ function validation(id, subject) {
     return "";
 }
 
-function goToII() {
-    window.location.href = 'II.html';
+function changePage(page) {
+    // La fonction envoie tout simplement l'utilisateur sur la page donnée en argument
+    window.location.href = page;
     return "";
 }
 
-function goToFinal() {
-    window.location.href = "sw.html";
-    return "";
-}
-
-function lastReponse() {
-    console.log(document.cookie);
-    return "";
-}
