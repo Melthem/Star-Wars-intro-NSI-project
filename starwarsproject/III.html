@@ -30,8 +30,6 @@
                 <option value="coaxium">Il s'occupe du transport de coaxium en provenance des mines de Kessel</option>
             </select>
 
-            <!-- Récupération de la réponses sous forme de cookie -->
-            <button id="choice" onclick="validation('now', 'maintenant')">Valider</button>
 
             <label for="event"><h3>Qu'est-ce qui s'apprête à se passer ?</h3></label>
             <select id="event">
@@ -43,11 +41,9 @@
                 <option value="deal">Il recoie un message : c'est un contrat d'assassinat de la sénatrice de Sullust, très bien payé</option>
             </select>
 
-            <!-- Récupération de la réponses sous forme de cookie -->
-            <button id="choice" onclick="validation('now', 'maintenant')">Valider</button>
         </form>
 
         <!-- Bouton pour changer de page -->
-        <button id="go" onclick="changePage('sw.html')">Continuez</button>
+        <button id="go" onclick="changePage('sw.html');validation('now', 'maintenant');validation('now', 'maintenant')">Continuez</button>
     </body>
 </html>

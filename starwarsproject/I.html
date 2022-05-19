@@ -18,8 +18,6 @@
                 <option value="nrepublic">La Nouvelle République</option>
             </select>
 
-            <!-- Récupération de la réponses sous forme de cookie -->
-            <button id="choice" onclick="validation('period', 'periode')">Valider</button>
 
             <label for="planet"><h3>Bien. Choisissez maintenant une planète d'origine pour notre protagoniste.</h3></label>
             <select id="planet">
@@ -31,8 +29,6 @@
                 <option value="iridonia">Iridonia</option>
             </select>
 
-            <!-- Récupération de la réponses sous forme de cookie -->
-            <button id="choice" onclick="validation('planet', 'planete')">Valider</button>
 
             <label for="species"><h3>Et maintenant, définissez son espèce.</h3></label>
             <select id="species">
@@ -47,12 +43,10 @@
                 <option value="tusken">Tusken</option>
             </select>
             
-            <!-- Récupération de la réponses sous forme de cookie -->
-            <button id="choice" onclick="validation('species', 'espece')">Valider</button>
         </form>
         
-        <!-- Bouton pour changer de page -->
-        <button id="go" onclick="changePage('II.html')">Avancez</button>
+        <!-- Bouton pour changer de page et récupérer les valeurs sous forme de cookies-->
+        <button id="go" onclick="changePage('II.html');validation('species', 'espece');validation('planet', 'planete');validation('period', 'periode')">Avancez</button>
 
     </body>
 </html>

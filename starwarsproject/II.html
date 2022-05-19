@@ -27,8 +27,6 @@
                 <option value="firstorder">Premier Ordre</option>
             </select>
 
-            <!-- Récupération de la réponses sous forme de cookie -->
-            <button id="choice" onclick="validation('allegeance', 'allegeance')">Valider</button>
 
             <label for="occupation"><h3>Déterminez son occupation.</h3></label>
             <select id="occupation">
@@ -44,8 +42,6 @@
                 <option value="order">Soldat du Premier Ordre</option>
             </select>
 
-            <!-- Récupération de la réponses sous forme de cookie -->
-            <button id="choice" onclick="validation('occupation', 'occupation')">Valider</button>
 
             <label for="goal"><h3>Quel est son but ?</h3></label>
             <select id="goal">
@@ -58,12 +54,10 @@
                 <option value="life">Faire ce qu'il veut et mener sa vie sans regrets</option>
             </select>
 
-            <!-- Récupération de la réponses sous forme de cookie -->
-            <button id="choice" onclick="validation('goal', 'but')">Valider</button>
         </form>
          
-        <!-- Bouton pour changer de page -->
-        <button id="go" onclick="changePage('III.html')">Continuez</button>
+        <!-- Bouton pour changer de page et récupérer les valeurs sous forme de cookies-->
+        <button id="go" onclick="changePage('III.html');validation('allegeance', 'allegeance');validation('occupation', 'occupation');validation('goal', 'but')">Continuez</button>
 
     </body>
 </html>
