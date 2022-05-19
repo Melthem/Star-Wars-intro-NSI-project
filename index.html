@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Étape I</title>
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="I.css">
+    </head>
+    <body>
+        <h1>Commencons par la mise en place.</h1>
+
+        <!-- Simple questionnaire à choix multiples -->
+        <form>
+            <label for="period"><h3>Dans quelle période nous trouvons-nous ?</h3></label>
+            <select id="period">
+                <option value="guerre">La Guerre des Clones</option>
+                <option value="gempire">L'Empire Galactique</option>
+                <option value="nrepublic">La Nouvelle République</option>
+            </select>
+
+
+            <label for="planet"><h3>Bien. Choisissez maintenant une planète d'origine pour notre protagoniste.</h3></label>
+            <select id="planet">
+                <option value="naboo">Naboo</option>
+                <option value="tatooine">Tatooine</option>
+                <option value="coruscant">Coruscant</option>
+                <option value="ryloth">Ryloth</option>
+                <option value="mon cala">Mon Cala</option>
+                <option value="iridonia">Iridonia</option>
+            </select>
+
+
+            <label for="species"><h3>Et maintenant, définissez son espèce.</h3></label>
+            <select id="species">
+                <option value="human">Humain</option>
+                <option value="twilek">Twi'lek</option>
+                <option value="zabrak">Zabrak</option>
+                <option value="quarren">Quarren</option>
+                <option value="mon calamari">Mon Calamari</option>
+                <option value="wookie">Wookie</option>
+                <option value="trandoshan">Trandoshan</option>
+                <option value="gungan">Gungan</option>
+                <option value="tusken">Tusken</option>
+            </select>
+            
+        </form>
+        
+        <!-- Bouton pour changer de page et récupérer les valeurs sous forme de cookies-->
+        <button id="go" onclick="changePage('II.html');validation('species', 'espece');validation('planet', 'planete');validation('period', 'periode')">Avancez</button>
+
+    </body>
+</html>
+
