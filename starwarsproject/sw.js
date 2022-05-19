@@ -13,8 +13,8 @@ if (document.cookie.includes("espece=quarren") === true) {
     document.getElementById('hero').textContent = "QUARREN";
 }
 
-if (document.cookie.includes("espece=wookiee") === true) {
-    document.getElementById('titre').textContent = "STAR WARS : Le Chant du Wookiee";
+if (document.cookie.includes("espece=wookie") === true) {
+    document.getElementById('titre').textContent = "STAR WARS : Le Chant du Wookie";
     document.getElementById('hero').textContent = "WOOKIE";
 }
 
