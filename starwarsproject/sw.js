@@ -204,25 +204,25 @@ if (document.cookie.includes('maintenant=coaxium') === true) {
 }
 
 if (document.cookie.includes('event=droid') === true) {
-    document.getElementById('event').textContent = "notre héros tomba sur un droïde endommagé contenant dans sa mémoire un MESSAGE d'une grande importance...";
+    document.getElementById('eve').textContent = "notre héros tomba sur un droïde endommagé contenant dans sa mémoire un MESSAGE d'une grande importance...";
 }
 
 if (document.cookie.includes('event=fight') === true) {
-    document.getElementById('event').textContent = "notre héros se retrouva au plein milieu d'une escarmouche entre deux gangs rivaux...";
+    document.getElementById('eve').textContent = "notre héros se retrouva au plein milieu d'une escarmouche entre deux gangs rivaux...";
 }
 
 if (document.cookie.includes('event=hunter') === true) {
-    document.getElementById('event').textContent = "notre héros fut soudainement confronté par un chasseur de primes, envoyé pour prendre sa tête...";
+    document.getElementById('eve').textContent = "notre héros fut soudainement confronté par un chasseur de primes, envoyé pour prendre sa tête...";
 }
 
 if (document.cookie.includes('event=deal') === true) {
-document.getElementById('event').textContent = "notre héros reçut un contrat d'assassinat ayant pour cible LA SÉNATRICE DE SULLUST, récompensé d'une importante somme de crédits...";
+document.getElementById('eve').textContent = "notre héros reçut un contrat d'assassinat ayant pour cible LA SÉNATRICE DE SULLUST, récompensé d'une importante somme de crédits...";
 }
 
 if (document.cookie.includes('event=nothing') === true) {
-    document.getElementById('event').textContent = "absolument rien de particulier n'arriva à notre héros, ce n'était qu'une journée ordinaire de plus dans une galaxie lointaine, très lointaine...";
+    document.getElementById('eve').textContent = "absolument rien de particulier n'arriva à notre héros, ce n'était qu'une journée ordinaire de plus dans une galaxie lointaine, très lointaine...";
 }
 
 if (document.cookie.includes('event=map') === true) {
+    document.getElementById('eve').textContent = "un étranger mortellement blessé prit à parti notre héros, lui remettant une holocarte désignant une planète des RÉGIONS INCONNUES, avant de succomber de ses blessures...";
 }
-document.getElementById('event').textContent = "un étranger mortellement blessé prit à parti notre héros, lui remettant une holocarte désignant une planète des RÉGIONS INCONNUES, avant de succomber de ses blessures...";
