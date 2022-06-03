@@ -63,6 +63,10 @@ if (document.cookie.includes('planete=iridonia') === true) {
     document.getElementById('planet').textContent = " IRIDONIA.";
 }
 
+if (document.cookie.includes('planete=kashyyyk') === true) {
+    document.getElementById('planet').textContent = " KASHYYYK.";
+}
+
 if (document.cookie.includes('planete=naboo') === true) {
     document.getElementById('planet').textContent = " NABOO.";
 }
@@ -188,7 +192,7 @@ if (document.cookie.includes('maintenant=pepere') === true) {
 }
 
 if (document.cookie.includes('maintenant=hide') === true) {
-    document.getElementById('now').textContent = "de se cacher du CARTEL DES HUTTS souhaitant sa tête,";
+    document.getElementById('now').textContent = "de se cacher du CARTEL DES HUTTS voulant sa tête,";
 }
 
 if (document.cookie.includes('maintenant=war') === true) {
